@@ -9,6 +9,6 @@ for i in $(seq "$timeS" -1 1)           # set countdown sequence by 1
     sleep 1                             # 1 second delay
 done
 echo "timer up!"
-aplay -q ~/Nevada/Scripts/timer/ding.wav       # play ding sound effect and suppress messages
+aplay -q some-sound-file.wav       # play sound effect and suppress messages
 exit 0
 # add timer to your aliases in bashrc
